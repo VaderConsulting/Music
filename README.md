@@ -1,6 +1,6 @@
 # Music
 
-VB6 working copy of `Music` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Music Database. Output: `MUSICDB.exe`. `VersionCompanyName`: Chips, Bits and Bytes. Contains 3 project files.
+Chips, Bits and Bytes / D. Robinson VB6 Music Database (captions "Music Database (c) 2000 by D. Robinson"). Access/`music2000.mdb` catalogue of artists, albums, songs, audio/CD/tape media, lyrics, and pictures via ADO (`MSADODC`/`MSDATGRD`) in folder `1/` (`Musicdb.exe`) and a larger login/admin DAO build in `2/` (`MUSICDB.exe` / `MUSIC.EXE`).
 
 **Source last updated:** 2000-06-01 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,9 +10,9 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `Project1` (`2/Musicdb.vbp`) | VB6 | WinForms exe | Music Database |
-| `Project1` (`2/Basics.vbp`) | VB6 | WinForms exe | Music Database |
-| `Musicdb` (`1/Musicdb.vbp`) | VB6 | WinForms exe | Musicdb |
+| `Project1` (`2/Musicdb.vbp`) | VB6 | WinForms exe | Music Database login/admin DAO build (`MUSICDB.exe`) |
+| `Project1` (`2/Basics.vbp`) | VB6 | WinForms exe | Music Database basics build (`MUSIC.EXE`) |
+| `Musicdb` (`1/Musicdb.vbp`) | VB6 | WinForms exe | ADO Music Database over `music2000.mdb` |
 
 ## How to open
 
@@ -44,4 +44,4 @@ Company names in project files: Chips, Bits and Bytes.
 
 ## License
 
-MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
+MIT (c) 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
